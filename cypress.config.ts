@@ -7,7 +7,7 @@ export default defineConfig({
     devServer: {
       framework: 'react',
       bundler: 'vite',
-      viteConfig,
+      viteConfig: viteConfig,
     },
   },
 
